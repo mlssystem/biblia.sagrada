@@ -5,7 +5,7 @@
    box-sizing: border-box;
 }
 /* CABEÇALHO */
-.logo {width: 56px; height: 56px; float: right; background: url(logo-mobile.png) center center/56px no-repeat;
+.logo {width: 56px; height: 56px; float: right; background: url("logo-mobile.png") center center/56px no-repeat;
     font-size: 0;}
 
     body {
