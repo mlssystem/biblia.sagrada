@@ -25,7 +25,7 @@ a{
 	color:#000;
 }
 a:hover {
-    color:#0b451d;	
+    color:#ff0000;	
 }
 @media screen and (min-width: 480px) {
     .logo {width: 214px; background: url("logo.png") center center/214px no-repeat;}
