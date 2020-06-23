@@ -1,0 +1,24 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    border: 1px solid #bbb;
+  }
+td {
+    border-top: 1px solid #ddd;
+    padding: 6px 14px;
+}
+tbody tr:nth-child(even) td {
+    background-color: #d2eaff;
+}
+
+@media screen and (max-width: 640px) {
+table {width:100%;}
+thead {display: none;}
+tr td:first-child {font-weight:bold;font-size:1.3em;}
+tbody td {display: block;  text-align:center;}
+tbody td:before { 
+    content: attr(data-th); 
+    display: block;
+    text-align:center;  
+  }
+}
