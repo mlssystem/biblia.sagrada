@@ -4,7 +4,11 @@
    outline: none; 
    box-sizing: border-box;
 }
-body {
+/* CABEÇALHO */
+.logo {width: 56px; height: 56px; float: right; background: url(logo-mobile.png) center center/56px no-repeat;
+    font-size: 0;}
+
+    body {
 	  margin: 33px; 
       text-align: justify; 
 	  font-family: 'Open Sans', sans-serif; 
@@ -23,3 +27,6 @@ a{
 a:hover {
     color:#0b451d;	
 }
+@media screen and (min-width: 480px) {
+    .logo {width: 214px; background: url("logo.png") center center/214px no-repeat;}
+    }
