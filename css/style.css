@@ -13,16 +13,20 @@
       text-align: justify; 
 	  font-family: 'Open Sans', sans-serif; 
 }
-h1 {color: #0427fc;}
-h2 {color: #094282;}
-h3 {color: #0427fc;}
+h1 {color: #000000; text-shadow: #100000 0.1em;}
+h2 {color: #ff0000; text-shadow: #000000 0em 0em;}
+h3 {color: #ff0000; text-shadow: #000000 0em 0em;}
 a {text-decoration: none;}
 ul {list-style: none;}
 img {max-width: 100%;}
 p span {color: #0427fc; font-weight:9px;}
 .pagina-inicial {margin:33px 33px;}
 a{
-	color:#000;
+	color:#ffffff;
+}
+/*NÃO PARA COLOR WHITE*/
+.nao a {
+  color: #000000;
 }
 a:hover {
     color:#ff0000;	
