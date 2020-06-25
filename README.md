@@ -94,8 +94,8 @@ Que a Graça de DEUS esteja sobre nós!
 
 ---
 
-## License
+## Licença
 
-Copyright (c) MLSSystem. All rights reserved.
+Copyright (c) MLSSystem Todos os direitos reservados.
 
-Licensed under the [MIT](LICENSE.txt) license.
+Licenciado sob a licença [MIT](LICENSE.txt).
