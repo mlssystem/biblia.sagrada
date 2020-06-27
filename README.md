@@ -18,7 +18,7 @@ No Blog do site [Trabalhadores da Seara](https://mlssystem.github.io/trabalhador
 
 Que a Graça de DEUS esteja sobre nós!
 
-##### Lista de pendências
+##### Lista de pendências.
 
 **ANTIGO TESTAMENTO**
 
