@@ -22,7 +22,7 @@ Que a Graça de DEUS esteja sobre nós!
 
 **ANTIGO TESTAMENTO**
 
-- [x] Gênesis - __*capítulos do 1º ao 20º*__
+- [x] Gênesis - __*Completo*__
 - [ ] Êxodo
 - [ ] Levítico
 - [ ] Números
