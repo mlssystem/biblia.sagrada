@@ -14,8 +14,8 @@
 	  font-family: 'Open Sans', sans-serif; 
 }
 h1 {color: #000000; text-shadow: #100000 0.1em;}
-h2 {color: #ff0000; text-shadow: #000000 0em 0em;}
-h3 {color: #ff0000; text-shadow: #000000 0em 0em;}
+h2 {color: #ff0000; text-shadow: #000000 0em 0.1em;}
+h3 {color: #ff0000; text-shadow: #000000 0em 0.1em;}
 a {text-decoration: none;}
 ul {list-style: none;}
 img {max-width: 100%;}
