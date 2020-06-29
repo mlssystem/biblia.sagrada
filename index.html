@@ -24,18 +24,18 @@
 		    border-collapse: collapse;
 		    border-spacing: 0px;
 		    border: 1px solid #bbb;
-		    background: -webkit-gradient(linear, left top, right top, from(#d2eaff), to(#1c82e4)) no-repeat;
-		    background: -moz-linear-gradient(left, #d2eaff, #1c82e4);
+		    background: gradient(linear, left top, right top, from(#d2eaff), to(#1c82e4)) no-repeat;
+		    background: gradient(left, #d2eaff, #1c82e4);
 		    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#d2eaff', EndColorStr='#1c82e4'); 
 		}
 		td {
 	    	border-top: 1px solid #ddd;
 	    	border-bottom: 1px solid #ddd;
-	    	padding: 3px 10px;
+	    	padding: 3px 8px;
 		}
 		@media screen and (max-width: 480px) {
 			table {
-			    width:100%;
+			    width: 100%;
 			}
 
 			tr td:first-child {
@@ -47,10 +47,28 @@
 			}
 			tbody td:before { 
 			    content: attr(data-th); 
-			    display: block;
+			    /*display: block;*/
 			    text-align:center;
 			}
-		}                    
+		} 
+		@media screen and (max-width: 620px) {
+			table {
+			    width: 100%;
+			}
+
+			tr td:first-child {
+			    font-weight:bold;
+			    font-size:1.3em;
+			}
+			tbody td {display: block;  
+			    text-align:center;
+			}
+			tbody td:before { 
+			    content: attr(data-th); 
+			    /*display: block;*/
+			    text-align:center;
+			}
+		}
     </style>
 </head>
 <body id="degrade">	
@@ -58,14 +76,16 @@
 <header class="cabecalho ">
 	<a href="https://mlssystem.github.io/trabalhadoresdaseara/"><h1 class="logo">Trabalhadores da Seara</h1></a>     
 </header>
+<!--VERSÃO DA TRADUÇÃO-->
 	<h1 style="color: #000000; text-shadow: #ffffff 0.2em 0.1em 0.2em;">BÍBLIA SAGRADA</h1>
 	<p style="color: #ffffff; text-shadow: #000000 0.2em 0.1em 0.2em;">Tradução: João Ferreira de Almeida</p>
 	<p style="color: #ffffff; text-shadow: #000000 0.2em 0.1em 0.2em;">Edição Revista e Corrigida</p>
 	<p> </p>
+<!--SESSÃO-->
 <section class="pagina-inicial">
 	<p style="text-align: center;">SITE EM DESENVOLVIMENTO!</p> 
 	<p style="text-align: center;">Livros Completos: GÊNESIS, ÊXODO, e PROVÉRBIOS.</p>
-<h2 style="color: #000000; text-shadow: #ffffff 0.2em 0.1em 0.2em;">ANTIGO TESTAMENTO</h2>
+	<h2 style="color: #000000; text-shadow: #ffffff 0.2em 0.1em 0.2em;">ANTIGO TESTAMENTO</h2>
 	<table class="degrade-tbl">
 	<tbody>
 		<tr>
@@ -75,7 +95,7 @@
 			<td style="opacity: 0.5;"><a href="">Números</a></td>
 		</tr>	
 		<tr>
-			<td style="opacity: 0.5;"><a href="">Deuteronômio&nbsp;&nbsp;</a></td>
+			<td style="opacity: 0.5;"><a href="">Deuteronômio</a></td>
 				<td style="opacity: 0.5;"><a href="">Josué</a></td>
 				<td style="opacity: 0.5;"><a href="">Juízes</a></td>
 			<td style="opacity: 0.5;"><a href="">Rute</a></td>
@@ -96,7 +116,7 @@
 			<td style="opacity: 0.5;"><a href="">Ester</a></td>	
 				<td style="opacity: 0.5;"><a href="">Jó</a></td>
 				<td style="opacity: 0.5;"><a href="">Salmos</a></td>
-			<td class="nao"><a href="./proverbios/proverbios.html">Provérbios&nbsp;</a></td>
+			<td class="nao"><a href="./proverbios/proverbios.html">Provérbios&nbsp;&nbsp;&nbsp;</a></td>
 		</tr>
     	<tr>
 			<td style="opacity: 0.5;"><a href="">Eclesiastes</a></td>			    	
@@ -126,12 +146,12 @@
 			<td style="opacity: 0.5;"><a href="">Ageu</a></td>
 				<td style="opacity: 0.5;"><a href="">Zacarias</a></td>
 				<td style="opacity: 0.5;"><a href="">Malaquias</a></td>	
-			<td style="opacity: 0.5;"><a href=""></a></td>	
+			<td></td>	
 		</tr>
 	</tbody>
 </table>
-<p> </p>
-<h2 style="color: #000000; text-shadow: #ffffff 0.2em 0.1em 0.2em;">NOVO TESTAMENTO</h2>
+	<p> </p>
+	<h2 style="color: #000000; text-shadow: #ffffff 0.2em 0.1em 0.2em;">NOVO TESTAMENTO</h2>
 	<table class="degrade-tbl">
 	<tbody>
 		<tr>
@@ -179,5 +199,9 @@
 	</tbody>
 </table>
 </section>
+<footer>
+	
+
+</footer>
 </body>
 </html>
