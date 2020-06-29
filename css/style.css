@@ -5,22 +5,36 @@
    box-sizing: border-box;
 }
 /* CABEÇALHO */
-.logo {width: 56px; height: 56px; float: right; background: url("logo-mobile.png") center center/56px no-repeat;
-    font-size: 0;}
+.logo {
+  width: 56px; 
+  height: 56px; 
+  float: right; 
+  background: url("logo-mobile.png") center center/56px no-repeat;
+    font-size: 0;
+  }
 
-    body {
-	  margin: 33px; 
-      text-align: justify; 
-	  font-family: 'Open Sans', sans-serif; 
+body {
+	margin: 33px; 
+  text-align: justify; 
+	font-family: 'Open Sans', sans-serif; 
 }
-h1 {color: #000000; text-shadow: #100000 0.1em;}
-h2 {color: #ff0000; text-shadow: #000000 0em 0.1em;}
-h3 {color: #ff0000; text-shadow: #000000 0em 0.1em;}
-a {text-decoration: none;}
+h1 {
+  color: #000000; 
+  text-shadow: #100000 0.1em;
+}
+h2 {color: #ff0000; 
+  text-shadow: #000000 0em 0.1em;
+}
+h3 {
+  color: #ff0000; 
+  text-shadow: #000000 0em 0.1em;
+}
+a {text-decoration: none;
+}
 ul {list-style: none;}
 img {max-width: 100%;}
 p span {color: #0427fc; font-weight:9px;}
-.pagina-inicial {margin:33px 33px;}
+.pagina-inicial {margin: 7px 7px;}
 a{
 	color:#ffffff;
 }
@@ -31,6 +45,23 @@ a{
 a:hover {
     color:#ff0000;	
 }
-@media screen and (min-width: 480px) {
-    .logo {width: 214px; background: url("logo.png") center center/214px no-repeat;}
-    }
+tbody td a.ativo {
+  color:#ff0000;
+}
+
+.cap-rod{
+  margin-right: 30px;
+}
+/*footer {
+  height: 270px;
+  background: -webkit-gradient(linear, left top, right top, from(#1c82e4), to(#d2eaff)) no-repeat;
+  background: -moz-linear-gradient(left, #1c82e4, #d2eaff);
+  filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#1c82e4', EndColorStr='#d2eaff');   
+  background-color: #000000
+}*/
+@media screen7and (min-width: 480px) {
+  .logo {width: 214px; 
+  background: url("logo.png") center center/214px no-repeat;
+}
+}
+    

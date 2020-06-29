@@ -9,7 +9,6 @@
 	<meta name="robots" content="index, follow">
 	<meta name="author" content="">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/tabela.css">	
 	<link rel="icon" href="imagens/bible.ico">
     <style type="text/css" >
         #degrade {
@@ -20,7 +19,38 @@
         .degrade-tbl{
         	background: -webkit-gradient(linear, left top, right top, from(#d2eaff), to(#1c82e4)) no-repeat;
             background: -moz-linear-gradient(left, #d2eaff, #1c82e4);
-            filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#d2eaff', EndColorStr='#1c82e4');        
+            filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#d2eaff', EndColorStr='#1c82e4');}
+		table {
+		    border-collapse: collapse;
+		    border-spacing: 0px;
+		    border: 1px solid #bbb;
+		    background: -webkit-gradient(linear, left top, right top, from(#d2eaff), to(#1c82e4)) no-repeat;
+		    background: -moz-linear-gradient(left, #d2eaff, #1c82e4);
+		    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#d2eaff', EndColorStr='#1c82e4'); 
+		}
+		td {
+	    	border-top: 1px solid #ddd;
+	    	border-bottom: 1px solid #ddd;
+	    	padding: 3px 10px;
+		}
+		@media screen and (max-width: 480px) {
+			table {
+			    width:100%;
+			}
+
+			tr td:first-child {
+			    font-weight:bold;
+			    font-size:1.3em;
+			}
+			tbody td {display: block;  
+			    text-align:center;
+			}
+			tbody td:before { 
+			    content: attr(data-th); 
+			    display: block;
+			    text-align:center;
+			}
+		}                    
     </style>
 </head>
 <body id="degrade">	
@@ -33,8 +63,8 @@
 	<p style="color: #ffffff; text-shadow: #000000 0.2em 0.1em 0.2em;">Edição Revista e Corrigida</p>
 	<p> </p>
 <section class="pagina-inicial">
-	<p>SITE EM DESENVOLVIMENTO!</p> 
-	<p>Livros Completos: GÊNESIS, ÊXODO, PROVÉRBIOS.</p>
+	<p style="text-align: center;">SITE EM DESENVOLVIMENTO!</p> 
+	<p style="text-align: center;">Livros Completos: GÊNESIS, ÊXODO, e PROVÉRBIOS.</p>
 <h2 style="color: #000000; text-shadow: #ffffff 0.2em 0.1em 0.2em;">ANTIGO TESTAMENTO</h2>
 	<table class="degrade-tbl">
 	<tbody>
@@ -45,7 +75,7 @@
 			<td style="opacity: 0.5;"><a href="">Números</a></td>
 		</tr>	
 		<tr>
-			<td style="opacity: 0.5;"><a href="">Deuteronômio &nbsp;&nbsp;&nbsp;</a></td>
+			<td style="opacity: 0.5;"><a href="">Deuteronômio&nbsp;&nbsp;</a></td>
 				<td style="opacity: 0.5;"><a href="">Josué</a></td>
 				<td style="opacity: 0.5;"><a href="">Juízes</a></td>
 			<td style="opacity: 0.5;"><a href="">Rute</a></td>
@@ -66,7 +96,7 @@
 			<td style="opacity: 0.5;"><a href="">Ester</a></td>	
 				<td style="opacity: 0.5;"><a href="">Jó</a></td>
 				<td style="opacity: 0.5;"><a href="">Salmos</a></td>
-			<td class="nao"><a href="./proverbios/proverbios.html">Provérbios</a></td>
+			<td class="nao"><a href="./proverbios/proverbios.html">Provérbios&nbsp;</a></td>
 		</tr>
     	<tr>
 			<td style="opacity: 0.5;"><a href="">Eclesiastes</a></td>			    	
