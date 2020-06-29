@@ -23,7 +23,7 @@ Que a Graça de DEUS esteja sobre nós!
 **ANTIGO TESTAMENTO**
 
 - [x] Gênesis - __*Completo*__
-- [ ] Êxodo
+- [x] Êxodo - __*Completo*__
 - [ ] Levítico
 - [ ] Números
 - [ ] Deuteronômio
