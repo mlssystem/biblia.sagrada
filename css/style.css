@@ -1,0 +1,36 @@
+/*=========== RESET ==========*/
+* {font-size: 100%; 
+   border: none; 
+   outline: none; 
+   box-sizing: border-box;
+}
+/* CABEÇALHO */
+.logo {width: 56px; height: 56px; float: right; background: url("logo-mobile.png") center center/56px no-repeat;
+    font-size: 0;}
+
+    body {
+	  margin: 33px; 
+      text-align: justify; 
+	  font-family: 'Open Sans', sans-serif; 
+}
+h1 {color: #000000; text-shadow: #100000 0.1em;}
+h2 {color: #ff0000; text-shadow: #000000 0em 0.1em;}
+h3 {color: #ff0000; text-shadow: #000000 0em 0.1em;}
+a {text-decoration: none;}
+ul {list-style: none;}
+img {max-width: 100%;}
+p span {color: #0427fc; font-weight:9px;}
+.pagina-inicial {margin:33px 33px;}
+a{
+	color:#ffffff;
+}
+/*NÃO PARA COLOR WHITE*/
+.nao a {
+  color: #000000;
+}
+a:hover {
+    color:#ff0000;	
+}
+@media screen and (min-width: 480px) {
+    .logo {width: 214px; background: url("logo.png") center center/214px no-repeat;}
+    }
