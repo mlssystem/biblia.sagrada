@@ -2,7 +2,7 @@
 
 Um dia estava lendo a palavra do Senhor, online, e me deparei com um anúncio incentivando a pornografia. 
 
-Infelizmente muitos usam da palavra de Deus para fins comerciais. Quero criar um ambiente :computer: virtual limpo para ler a palvra do Senhor. 
+Infelizmente muitos usam da palavra de Deus para fins comerciais. Quero criar um ambiente virtual :computer: limpo para ler a palvra do Senhor, que não tenha anúncio, e nenhuma forma de adquirir algum recurso financeiro. 
 
 Abaixo segue o material de apoio que estou usando:
 
