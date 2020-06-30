@@ -20,7 +20,7 @@ a {text-decoration: none;}
 ul {list-style: none;}
 img {max-width: 100%;}
 p span {color: #0427fc; font-weight:9px;}
-.pagina-inicial {margin:33px 33px;}
+.pagina-inicial {margin:12px 12px;}
 a{
 	color:#ffffff;
 }
@@ -35,7 +35,26 @@ a:hover {
 table tbody td a.ativo {
   color: #ff0000;
 }
+/*FOOTER*/
+/*footer{
+    float: right; 
+    padding-bottom: 10px; 
+}*/
+.top {
+    width: 23px; 
+    height: 30px; 
+    float: right; 
+    background: url("../imagens/top7.png") center center/30px no-repeat;
+    font-size: 0;
+    padding-bottom: 20px;
+  }
 /*MEDIA*/
 @media screen and (min-width: 480px) {
     .logo {width: 214px; background: url("logo.png") center center/214px no-repeat;}
-    }
+    footer.top {
+    width: 92px; 
+    background: url("../imagens/top7.png") center center/92px no-repeat;
+    font-size: 0;
+    padding-bottom: 20px;}
+}
+
