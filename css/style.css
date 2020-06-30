@@ -41,10 +41,10 @@ table tbody td a.ativo {
     padding-bottom: 10px; 
 }*/
 .top {
-    width: 23px; 
+    width: 30px; 
     height: 30px; 
     float: right; 
-    background: url("../imagens/top7.png") center center/30px no-repeat;
+    background: url("../imagens/top2.png") center center/30px no-repeat;
     font-size: 0;
     padding-bottom: 20px;
   }
@@ -53,7 +53,7 @@ table tbody td a.ativo {
     .logo {width: 214px; background: url("logo.png") center center/214px no-repeat;}
     footer.top {
     width: 92px; 
-    background: url("../imagens/top7.png") center center/92px no-repeat;
+    background: url("../imagens/top2.png") center center/92px no-repeat;
     font-size: 0;
     padding-bottom: 20px;}
 }
