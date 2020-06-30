@@ -41,12 +41,12 @@ table tbody td a.ativo {
     padding-bottom: 10px; 
 }*/
 .top {
-    width: 30px; 
-    height: 30px; 
+    width: 38px; 
+    height: 42px; 
     float: right; 
     background: url("../imagens/top2.png") center center/30px no-repeat;
     font-size: 0;
-    padding-bottom: 20px;
+    margin-bottom: 17px;
   }
 /*MEDIA*/
 @media screen and (min-width: 480px) {
@@ -55,6 +55,5 @@ table tbody td a.ativo {
     width: 92px; 
     background: url("../imagens/top2.png") center center/92px no-repeat;
     font-size: 0;
-    padding-bottom: 20px;}
 }
 
