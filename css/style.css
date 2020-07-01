@@ -24,6 +24,10 @@ p span {color: #0427fc; font-weight:9px;}
 a{
 	color:#ffffff;
 }
+/*PRÓXIMO CAPITULO*/
+.proximo{
+  font-weight: bold;
+}
 /*NÃO PARA COLOR WHITE*/
 .nao a {
   color: #000000;
