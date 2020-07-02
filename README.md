@@ -65,8 +65,8 @@ Que a Graça de DEUS esteja sobre nós!
 **NOVO TESTAMENTO**
 
 - [x] Mateus - __*Completo*__
-- [ ] Marcos
-- [ ] Lucas
+- [x] Marcos - __*Completo*__
+- [x] Lucas - __*Completo*__
 - [ ] João
 - [ ] Atos
 - [ ] Romanos
