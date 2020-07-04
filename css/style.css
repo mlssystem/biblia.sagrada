@@ -5,45 +5,105 @@
    box-sizing: border-box;
 }
 /* CABEÇALHO */
-.logo {width: 56px; height: 56px; float: right; background: url("logo-mobile.png") center center/56px no-repeat;
+.logo { 
+    width: 56px; 
+    height: 56px; 
+    float: right; background: url("../imagens/logo-mobile.png") center center/56px no-repeat;
     font-size: 0;}
-
     body {
 	  margin: 33px; 
-      text-align: justify; 
+    text-align: justify; 
 	  font-family: 'Open Sans', sans-serif; 
 }
-h1 {color: #000000; text-shadow: #100000 0.1em;}
-h2 {color: #ff0000; text-shadow: #000000 0em 0.1em;}
-h3 {color: #ff0000; text-shadow: #000000 0em 0.1em;}
-a {text-decoration: none;}
-ul {list-style: none;}
-img {max-width: 100%;}
-p span {color: #0427fc; font-weight:9px;}
-.pagina-inicial {margin:12px 12px;}
-a{
-	color:#ffffff;
+/*INFORMAÇÕES DE PENDENCIAS*/
+.info-ped p{
+    text-align: center;
+}
+/*BACKGROUND BODY TBL NO INDEX  */
+#degrade {
+    background: -webkit-gradient(linear, left top, right top, from(#1c82e4), to(#d2eaff)) no-repeat;
+    background: -moz-linear-gradient(left, #1c82e4, #d2eaff);
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#1c82e4', EndColorStr='#d2eaff');        
+}    
+.degrade-tbl{
+    background: -webkit-gradient(linear, left top, right top, from(#d2eaff), to(#1c82e4)) no-repeat;
+    background: -moz-linear-gradient(left, #d2eaff, #1c82e4);
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#d2eaff', EndColorStr='#1c82e4');
+}
+/*INTRODUÇÃO*/
+.intro h1{
+    color: #000000; text-shadow: #ffffff 0.2em 0.1em 0.2em;
+    padding: 15px;
+}
+.intro p{    
+    color: #ffffff; text-shadow: #000000 0.2em 0.1em 0.2em;
+}
+.at-nt {
+    color: #000000; 
+    text-shadow: #ffffff 0.2em 0.1em 0.2em;}
+/*TABELA*/
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    border: 1px solid #bbb;
+    background: -webkit-gradient(linear, left top, right top, from(#d2eaff), to(#1c82e4)) no-repeat;
+    background: -moz-linear-gradient(left, #d2eaff, #1c82e4);
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#d2eaff', EndColorStr='#1c82e4'); 
+  }
+td {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 10px;
+}
+/*GERAL*/
+h1 {
+    color: #000000;  
+    text-shadow: #100000 0.1em;
+  }
+h2 {
+    color: #ff0000; 
+    text-shadow: #000000 0em 0.1em;
+  }
+h3 {
+    color: #ff0000; 
+    text-shadow: #000000 0em 0.1em;
+  }
+a {
+    text-decoration: none;
+  }
+ul {
+    list-style: none;
+  }
+img {
+    max-width: 100%;
+  }
+p span {
+    color: #0427fc; 
+    font-weight:9px;
+  }
+.pagina-inicial {
+    margin: 12px 12px;
+  }
+a {
+	  color:#ffffff;
 }
 /*PRÓXIMO CAPITULO*/
 .proximo{
-  font-weight: bold;
+    font-weight: bold;
+    padding: 5px;
 }
 /*NÃO PARA COLOR WHITE*/
 .nao a {
-  color: #000000;
+    color: #000000;
 }
 a:hover {
     color:#ff0000;	
 }
 /*LINK ATIVO*/
 table tbody td a.ativo {
-  color: #ff0000;
+    color: #ff0000;
 }
 /*FOOTER*/
-/*footer{
-    float: right; 
-    padding-bottom: 10px; 
-}*/
 .top {
     width: 38px; 
     height: 42px; 
@@ -53,11 +113,28 @@ table tbody td a.ativo {
     margin-bottom: 17px;
   }
 /*MEDIA*/
+@media screen and (max-width: 480px) {
+    table {
+        width: 50%;
+    }
+    tbody td {
+        display: block;  
+        text-align:center;
+    }
+}
+@media screen and (max-width: 550px) {
+    table {
+        width: 100%;
+    }
+    tbody td {
+        display: block;  
+        text-align:center;
+    }
+}
 @media screen and (min-width: 480px) {
-    .logo {width: 214px; background: url("logo.png") center center/214px no-repeat;}
+    .logo {width: 214px; background: url("../imagens/logo.png") center center/214px no-repeat;}
     footer.top {
     width: 92px; 
     background: url("../imagens/top2.png") center center/92px no-repeat;
     font-size: 0;
 }
-
