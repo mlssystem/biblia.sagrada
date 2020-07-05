@@ -127,14 +127,13 @@ table tbody td a.ativo {
 @media screen and (max-width: 680px) {
     table {
         width: 100%;
-        margin-left: -3%;
+        margin-left: -2%;
     }
     tbody td {
-        /*display: block;*/ 
+        /*display: block;*/
         text-align:center;
     }
-    #degrade {
-        margin-left: 4%;}
+
 }
 @media screen and (min-width: 480px) {
     .logo {width: 214px; background: url("../imagens/logo.png") center center/214px no-repeat;}
