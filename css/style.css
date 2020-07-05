@@ -11,9 +11,9 @@
     float: right; background: url("../imagens/logo-mobile.png") center center/56px no-repeat;
     font-size: 0;}
 body {
-    margin: 33px; 
+    margin: 33px;
     text-align: justify; 
-	  font-family: 'Open Sans', sans-serif; 
+	font-family: 'Open Sans', sans-serif; 
 }
 /*INFORMAÇÕES DE PENDENCIAS*/
 .info-ped p{
@@ -23,8 +23,8 @@ body {
 /*BACKGROUND BODY TBL NO INDEX  */
 #degrade {
     background: -webkit-gradient(linear, left top, right top, from(#1c82e4), to(#a0cbf1)) no-repeat;
-    background: -moz-linear-gradient(left, #1c82e4, #a0cbf1);
-    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#1c82e4', EndColorStr='#a0cbf1');
+    /*background: -moz-linear-gradient(left, #1c82e4, #a0cbf1);
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#1c82e4', EndColorStr='#a0cbf1');*/
     margin-right: 13%;
     margin-left: 13%;     
 }    
@@ -56,9 +56,11 @@ table {
     filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#a0cbf1', EndColorStr='#1c82e4');
   }
 td {
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding: 8px 7px;
+    border-top: 1px solid #a0cbf1;
+    border-bottom: 1px solid #a0cbf1;
+    border-left: 1px solid #a0cbf1;
+    border-right: 1px solid #a0cbf1;
+    padding: 6px 14px;
 }
 /*GERAL*/
 h2 {
@@ -117,23 +119,22 @@ table tbody td a.ativo {
 @media screen and (max-width: 490px) {
     table {
         width: 100%;
-        margin-right: 10%;
     }
+    thead {display: none;}
     tbody td {
-        display: block;  
+        display: block;
         text-align:center;
     }
 }
 @media screen and (max-width: 680px) {
     table {
         width: 100%;
-        margin-left: -2%;
+        margin-left: -3%;
     }
     tbody td {
-        /*display: block;*/
+        display: block;
         text-align:center;
-    }
-
+     }
 }
 @media screen and (min-width: 480px) {
     .logo {width: 214px; background: url("../imagens/logo.png") center center/214px no-repeat;}
