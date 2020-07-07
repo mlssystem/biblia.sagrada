@@ -10,86 +10,137 @@
 	<meta name="author" content="">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="icon" href="imagens/bible.ico">
+    <style type="text/css" >
+        #degrade {
+            background: -webkit-gradient(linear, left top, right top, from(#1c82e4), to(#d2eaff)) no-repeat;
+        }    
+        .degrade-tbl{
+        	background: -webkit-gradient(linear, left top, right top, from(#d2eaff), to(#1c82e4)) no-repeat;
+        }
+        table {
+		    border-collapse: collapse;
+		    border-spacing: 0px;
+		    border: 1px solid #bbb;
+		    background: gradient(linear, left top, right top, from(#d2eaff), to(#1c82e4)) no-repeat;
+            width: 100%;
+		}
+		td {
+	    	border-top: 1px solid #ddd;
+	    	border-bottom: 1px solid #ddd;
+	    	padding: 10px 8px;
+		}
+		@media screen and (max-width: 480px) {
+			table {
+			    width: 100%;
+			}
+
+			tbody td {display: block;  
+			    text-align:center;
+			}
+			tbody td:before { 
+			    content: attr(data-th); 
+			    /*display: block;*/
+			    text-align:center;
+			}
+		} 
+		@media screen and (max-width: 620px) {
+			table {
+			    width: 100%;
+			}
+
+			tbody td {display: block;  
+			    text-align:center;
+			}
+			tbody td:before { 
+			    content: attr(data-th); 
+			    text-align:center;
+			}
+		}
+    </style>
 </head>
 <body id="degrade">	
+<!-- CABEÇALHO --> 
 <header class="cabecalho ">
-	<a href="https://mlssystem.github.io/trabalhadoresdaseara/"><h1 class="logo">Trabalhadores da Seara</h1></a>     
+	<a href="https://mlssystem.github.io/trabalhadoresdaseara/"><h1 class="logo">Trabalhadores da Seara</h1></a> 
+	<div class="intro">
+		<h1>BÍBLIA SAGRADA</h1>
+		<p>Tradução: João Ferreira de Almeida</p>
+		<p>Edição Revista e Corrigida</p>
+	</div>
+	<div class="info-ped">
+		<p>SITE EM DESENVOLVIMENTO!</p> 
+		<p>Livros Completos: GÊNESIS, ÊXODO, PROVÉRBIOS, MATEUS, MARCOS, LUCAS, e JOÃO.</p>
+	</div>    
 </header>
-<div class="intro">
-	<h1>BÍBLIA SAGRADA</h1>
-	<p>Tradução: João Ferreira de Almeida</p>
-	<p>Edição Revista e Corrigida</p>
-</div>
-<section class="pagina-inicial info-ped">
-	<p>SITE EM DESENVOLVIMENTO!</p> 
-	<p>Livros Completos: GÊNESIS, ÊXODO, PROVÉRBIOS, MATEUS, MARCOS, LUCAS, e JOÃO.</p>
+<section class="pagina-inicial">
 	<h2 class="at-nt">ANTIGO TESTAMENTO</h2>
-<table class="degrade-tbl">
+	<table class="degrade-tbl">
 	<tbody>
 		<tr>
 			<td class="nao"><a href="./genesis/genesis.html">Gênesis</a></td>
 				<td class="nao"><a href="./exodo/exodo.html">Êxodo</a></td>
-				<td style="opacity: 0.2;"><a href="">Levítico</a></td>
-			<td style="opacity: 0.2;"><a href="">Números</a></td>
+				<td style="opacity: 0.5;"><a href="">Levítico</a></td>
+			<td style="opacity: 0.5;"><a href="">Números</a></td>
 		</tr>	
 		<tr>
-			<td style="opacity: 0.2;"><a href="">Deuteronômio</a><span style="opacity: 0.0;">***</span</td>
-				<td style="opacity: 0.2;"><a href="">Josué</a></td>
-				<td style="opacity: 0.2;"><a href="">Juízes</a></td>
-			<td style="opacity: 0.2;"><a href="">Rute</a></td>
+			<td style="opacity: 0.5; padding: 0px 10px;"><a href="">Deuteronômio</a></td>
+				<td style="opacity: 0.5;"><a href="">Josué</a></td>
+				<td style="opacity: 0.5;"><a href="">Juízes</a></td>
+			<td style="opacity: 0.5;"><a href="">Rute</a></td>
 		</tr>
 		<tr>
-			<td style="opacity: 0.2;"><a href="">I Samuel</a></td>			
-				<td style="opacity: 0.2;"><a href="">II Samuel</a></td>
-				<td style="opacity: 0.2;"><a href="">I Reis</a></td>
-			<td style="opacity: 0.2;"><a href="">II Reis</a></td>
+			<td style="opacity: 0.5;"><a href="">I Samuel</a></td>			
+				<td style="opacity: 0.5;"><a href="">II Samuel</a></td>
+				<td style="opacity: 0.5;"><a href="">I Reis</a></td>
+			<td style="opacity: 0.5;"><a href="">II Reis</a></td>
 		</tr>
 		<tr>
-			<td style="opacity: 0.2;"><a href="">I Crônicas</a></td>	
-				<td style="opacity: 0.2;"><a href="">II Crônicas</a><span style="opacity: 0.0;">********</span></td>
-				<td style="opacity: 0.2;"><a href="">Esdras</a></td>
-			<td style="opacity: 0.2;"><a href="">Neemias</a></td>
+			<td style="opacity: 0.5;"><a href="">I Crônicas</a></td>	
+				<td style="opacity: 0.5;"><a href="">II Crônicas</a></td>
+				<td style="opacity: 0.5;"><a href="">Esdras</a></td>
+			<td style="opacity: 0.5;"><a href="">Neemias</a></td>
 		</tr>	
-		<tr> 
-			<td style="opacity: 0.2;"><a href="">Ester</a></td>	
-				<td style="opacity: 0.2;"><a href="">Jó</a></td>
-				<td style="opacity: 0.2;"><a href="">Salmos</a></td>
-			<td class="nao"><a href="./proverbios/proverbios.html">Provérbios</a><span style="opacity: 0.0;">**</span></td>
+		<tr>
+			<td style="opacity: 0.5;"><a href="">Ester</a></td>	
+				<td style="opacity: 0.5;"><a href="">Jó</a></td>
+				<td style="opacity: 0.5;"><a href="">Salmos</a></td>
+			<td class="nao"><a href="./proverbios/proverbios.html">Provérbios</a></td>
 		</tr>
     	<tr>
-			<td style="opacity: 0.2;"><a href="">Eclesiastes</a></td>			    	
-				<td style="opacity: 0.2;"><a href="">Cantares</a></td>
-				<td style="opacity: 0.2;"><a href="">Isaías</a></td>
-			<td style="opacity: 0.2;"><a href="">Jeremias</a></td>
+			<td style="opacity: 0.5;"><a href="">Eclesiastes</a></td>			    	
+				<td style="opacity: 0.5;"><a href="">Cântico dos Cânticos</a></td>
+				<td style="opacity: 0.5;"><a href="">Isaías</a></td>
+			<td style="opacity: 0.5;"><a href="">Jeremias</a></td>
 		</tr>	
 		<tr>
-			<td style="opacity: 0.2;"><a href="">Lamentações</a><span style="opacity: 0.0;">**</span></td>			
-				<td style="opacity: 0.2;"><a href="">Ezequiel</a></td>
-				<td style="opacity: 0.2;"><a href="">Daniel</a></td>
-			<td style="opacity: 0.2;"><a href="">Oséias</a></td>
+			<td style="opacity: 0.5;"><a href="">Lamentações</a></td>			
+				<td style="opacity: 0.5;"><a href="">Ezequiel</a></td>
+				<td style="opacity: 0.5;"><a href="">Daniel</a></td>
+			<td style="opacity: 0.5;"><a href="">Oséias</a></td>
 		</tr>
 		<tr>	
-			<td style="opacity: 0.2;"><a href="">Joel</a></td>			
-				<td style="opacity: 0.2;"><a href="">Amós</a></td>
-				<td style="opacity: 0.2;"><a href="">Obadias</a></td>
-			<td style="opacity: 0.2;"><a href="">Jonas</a></td>
+			<td style="opacity: 0.5;"><a href="">Joel</a></td>			
+				<td style="opacity: 0.5;"><a href="">Amós</a></td>
+				<td style="opacity: 0.5;"><a href="">Obadias</a></td>
+			<td style="opacity: 0.5;"><a href="">Jonas</a></td>
 		</tr>
 		<tr>		
-			<td style="opacity: 0.2;"><a href="">Miquéias</a></td>
-				<td style="opacity: 0.2;"><a href="">Naum</a></td>
-				<td style="opacity: 0.2;"><a href="">Habacuque</a></td>
-			<td style="opacity: 0.2;"><a href="">Sofonias</a></td>
+			<td style="opacity: 0.5;"><a href="">Miquéias</a></td>
+				<td style="opacity: 0.5;"><a href="">Naum</a></td>
+				<td style="opacity: 0.5;"><a href="">Habacuque</a></td>
+			<td style="opacity: 0.5;"><a href="">Sofonias</a></td>
 		</tr>
 		<tr>	
-			<td style="opacity: 0.2;"><a href="">Ageu</a></td>
-				<td style="opacity: 0.2;"><a href="">Zacarias</a></td>
-			<td style="opacity: 0.2;"><a href="">Malaquias</a></td>
-			<td style="opacity: 0.0;">Testamento</td>
+			<td style="opacity: 0.5;"><a href="">Ageu</a></td>
+				<td style="opacity: 0.5;"><a href="">Zacarias</a></td>
+				<td style="opacity: 0.5;"><a href="">Malaquias</a></td>
+			<td style="opacity: 0.0;">Antigo___Testamento</td>
 		</tr>
 	</tbody>
 </table>
-<h2 class="at-nt">NOVO TESTAMENTO</h2>
-<table class="degrade-tbl">
+	<p> </p>
+	<h2  class="at-nt">NOVO TESTAMENTO</h2>
+	<table class="degrade-tbl">
 	<tbody>
 		<tr>
 			<td class="nao"><a href="./mateus/mateus.html">Mateus</a></td>
@@ -98,40 +149,40 @@
 			<td class="nao"><a href="./joao/joao.html">João</a></td>
 		</tr>	
 		<tr>
-			<td style="opacity: 0.2;"><a href="">Atos</a></td>
-				<td style="opacity: 0.2;"><a href="">Romanos</a></td>
-				<td style="opacity: 0.2;"><a href="">I Coríntios</a></td>
-			<td style="opacity: 0.2;"><a href="">II Coríntios</a></td>
+			<td style="opacity: 0.5;"><a href="">Atos</a></td>
+				<td style="opacity: 0.5;"><a href="">Romanos</a></td>
+				<td style="opacity: 0.5;"><a href="">I Coríntios</a></td>
+			<td style="opacity: 0.5;"><a href="">II Coríntios</a></td>
 		</tr>	
 		<tr>
-			<td style="opacity: 0.2;"><a href="">Gálatas</a></td>	
-				<td style="opacity: 0.2;"><a href="">Efésios</a></td>
-				<td style="opacity: 0.2;"><a href="">Filipenses</a></td>
-			<td style="opacity: 0.2;"><a href="">Colossenses</a></td>
+			<td style="opacity: 0.5;"><a href="">Gálatas</a></td>	
+				<td style="opacity: 0.5;"><a href="">Efésios</a></td>
+				<td style="opacity: 0.5;"><a href="">Filipenses</a></td>
+			<td style="opacity: 0.5;"><a href="">Colossenses</a></td>
 		</tr>
 		<tr>
-			<td style="opacity: 0.2;"><a href="">I Tessalonicenses</a></td>	
-				<td style="opacity: 0.2;"><a href="">II Tessalonicenses</a></td>
-				<td style="opacity: 0.2;"><a href="">I Timóteo</a></td>
-			<td style="opacity: 0.2;"><a href="">II Timóteo</a></td>
+			<td style="opacity: 0.5;"><a href="">I Tessalonicenses</a></td>	
+				<td style="opacity: 0.5;"><a href="">II Tessalonicenses</a></td>
+				<td style="opacity: 0.5;"><a href="">I Timóteo</a></td>
+			<td style="opacity: 0.5;"><a href="">II Timóteo</a></td>
 		</tr>
 		<tr>
-			<td style="opacity: 0.2;"><a href="">Tito</a></td>	
-				<td style="opacity: 0.2;"><a href="">Filemom</a></td>
-				<td style="opacity: 0.2;"><a href="">Hebreus</a></td>
-			<td style="opacity: 0.2;"><a href="">Tiago</a></td>
+			<td style="opacity: 0.5;"><a href="">Tito</a></td>	
+				<td style="opacity: 0.5;"><a href="">Filemom</a></td>
+				<td style="opacity: 0.5;"><a href="">Hebreus</a></td>
+			<td style="opacity: 0.5;"><a href="">Tiago</a></td>
 		</tr>
     	<tr>
-			<td style="opacity: 0.2;"><a href="">I Pedro</a></td>   	
-				<td style="opacity: 0.2;"><a href="">II Pedro</a></td>
-				<td style="opacity: 0.2;"><a href="">I João</a></td>
-			<td style="opacity: 0.2;"><a href="">II João</a></td>
+			<td style="opacity: 0.5;"><a href="">I Pedro</a></td>   	
+				<td style="opacity: 0.5;"><a href="">II Pedro</a></td>
+				<td style="opacity: 0.5;"><a href="">I João</a></td>
+			<td style="opacity: 0.5;"><a href="">II João</a></td>
 		</tr>
 		<tr>
-			<td style="opacity: 0.2;"><a href="">III João</a></td>			
-				<td style="opacity: 0.2;"><a href="">Judas</a></td>
-			<td style="opacity: 0.2;"><a href="">Apocalipse</a></td>
-			<td style="opacity: 0.0;">Apocalipse</td>		
+			<td style="opacity: 0.5;"><a href="">III João</a></td>			
+				<td style="opacity: 0.5;"><a href="">Judas</a></td>
+				<td style="opacity: 0.5;"><a href="">Apocalipse</a></td>
+			<td style="opacity: 0.0;">Antigo___Testamento</td>
 		</tr>
 	</tbody>
 </table>
