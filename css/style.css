@@ -38,6 +38,7 @@ body {
 .at-nt {
     color: #000; 
     text-shadow: #fff 0.2em 0.1em 0.2em;
+    margin-top: 44px;
 }
 /*GERAL*/
 h2 {
@@ -61,7 +62,9 @@ p span {
     color: #0427fc; 
     font-weight:9px;
 }
-.pagina-inicial {margin:12px 12px;}
+.pagina-inicial {
+    margin:12px 12px;
+}
 a{
 	  color:#ffffff;
 }
