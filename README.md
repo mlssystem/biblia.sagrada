@@ -73,7 +73,7 @@ Que a Graça de DEUS esteja sobre nós!
 - [ ] I Coríntios
 - [ ] II Coríntios
 - [ ] Gálatas
-- [ ] Efésios
+- [x] Efésios - __*Completo*__
 - [ ] Filipenses
 - [ ] Colossenses
 - [ ] I Tessalonicenses
