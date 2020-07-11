@@ -68,7 +68,7 @@ Que a Graça de DEUS esteja sobre nós!
 - [x] Marcos - __*Completo*__
 - [x] Lucas - __*Completo*__
 - [X] João - __*Completo*__
-- [ ] Atos
+- [X] Atos - __*Completo*__
 - [ ] Romanos
 - [ ] I Coríntios
 - [ ] II Coríntios
