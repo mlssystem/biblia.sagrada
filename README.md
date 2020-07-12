@@ -70,11 +70,11 @@ Que a Graça de DEUS esteja sobre nós!
 - [X] João - __*Completo*__
 - [X] Atos - __*Completo*__
 - [X] Romanos - __*Completo*__
-- [ ] I Coríntios
-- [ ] II Coríntios
-- [ ] Gálatas
+- [X] I Coríntios - __*Completo*__
+- [X] II Coríntios - __*Completo*__
+- [X] Gálatas - __*Completo*__
 - [x] Efésios - __*Completo*__
-- [ ] Filipenses
+- [X] Filipenses - __*Completo*__
 - [ ] Colossenses
 - [ ] I Tessalonicenses
 - [ ] II Tessalonicenses
