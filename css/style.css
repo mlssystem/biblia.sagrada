@@ -19,6 +19,7 @@
 }
 
 body {
+    background-color: rgb(243, 240, 240);
     margin: 12px;
     /*margin-top: 12px;
     margin-right: 12px;
@@ -60,7 +61,7 @@ body {
 .intro p {
     margin-top: 12px;
     color: #fff;
-    text-shadow: #000 0.2em 0.1em 0.2em;
+    text-shadow: rgb(241, 236, 236) 0.2em 0.1em 0.2em;
 }
 
 .at-nt {
