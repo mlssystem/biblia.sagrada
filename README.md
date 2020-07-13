@@ -75,12 +75,12 @@ Que a Graça de DEUS esteja sobre nós!
 - [X] Gálatas - __*Completo*__
 - [x] Efésios - __*Completo*__
 - [X] Filipenses - __*Completo*__
-- [ ] Colossenses
-- [ ] I Tessalonicenses
-- [ ] II Tessalonicenses
-- [ ] I Timóteo
-- [ ] II Timóteo
-- [ ] Tito
+- [X] Colossenses - __*Completo*__
+- [X] I Tessalonicenses - __*Completo*__
+- [X] II Tessalonicenses - __*Completo*__
+- [X] I Timóteo - __*Completo*__
+- [X] II Timóteo - __*Completo*__
+- [X] Tito - __*Completo*__
 - [ ] Filemom
 - [ ] Hebreus
 - [ ] Tiago
