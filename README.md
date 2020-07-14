@@ -81,11 +81,11 @@ Que a Graça de DEUS esteja sobre nós!
 - [X] I Timóteo - __*Completo*__
 - [X] II Timóteo - __*Completo*__
 - [X] Tito - __*Completo*__
-- [ ] Filemom
-- [ ] Hebreus
-- [ ] Tiago
-- [ ] I Pedro
-- [ ] II Pedro
+- [X] Filemom - __*Completo*__
+- [X] Hebreus - __*Completo*__
+- [X] Tiago - __*Completo*__
+- [X] I Pedro - __*Completo*__
+- [X] II Pedro - __*Completo*__
 - [ ] I João
 - [ ] II João
 - [ ] III João
