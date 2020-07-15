@@ -86,10 +86,10 @@ Que a Graça de DEUS esteja sobre nós!
 - [X] Tiago - __*Completo*__
 - [X] I Pedro - __*Completo*__
 - [X] II Pedro - __*Completo*__
-- [ ] I João
-- [ ] II João
-- [ ] III João
-- [ ] Judas
+- [X] I João - __*Completo*__
+- [X] II João - __*Completo*__
+- [X] III João - __*Completo*__
+- [X] Judas - __*Completo*__
 - [ ] Apocalipse	
 
 ---
