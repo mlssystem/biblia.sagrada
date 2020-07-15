@@ -90,7 +90,7 @@ Que a Graça de DEUS esteja sobre nós!
 - [X] II João - __*Completo*__
 - [X] III João - __*Completo*__
 - [X] Judas - __*Completo*__
-- [ ] Apocalipse	
+- [X] Apocalipse - __*Completo*__	
 
 ---
 
