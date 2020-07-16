@@ -24,7 +24,7 @@ Que a Graça de DEUS esteja sobre nós!
 
 - [x] Gênesis - __*Completo*__
 - [x] Êxodo - __*Completo*__
-- [ ] Levítico
+- [X] Levítico - __*Completo*__
 - [ ] Números
 - [ ] Deuteronômio
 - [ ] Josué
