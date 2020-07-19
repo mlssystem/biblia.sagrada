@@ -25,8 +25,8 @@ Que a Graça de DEUS esteja sobre nós!
 - [x] Gênesis - __*Completo*__
 - [x] Êxodo - __*Completo*__
 - [X] Levítico - __*Completo*__
-- [ ] Números
-- [ ] Deuteronômio
+- [X] Números - __*Completo*__
+- [X] Deuteronômio - __*Completo*__
 - [ ] Josué
 - [ ] Juízes
 - [ ] Rute
