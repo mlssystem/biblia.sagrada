@@ -44,7 +44,7 @@ Que a Graça de DEUS esteja sobre nós!
 - [x] Provérbios - __*Completo*__
 - [ ] Eclesiastes
 - [ ] Cântico dos Cânticos
-- [ ] Isaías
+- [X] Isaías - __*Completo*__
 - [ ] Jeremias
 - [ ] Lamentações
 - [ ] Ezequiel
@@ -98,4 +98,4 @@ Que a Graça de DEUS esteja sobre nós!
 
 Copyright (c) MLSSystem Todos os direitos reservados.
 
-Licenciado sob a licença [MIT](LICENSE.txt).
+Licenciado sob a licença [MIT](https://github.com/mlssystem/biblia.sagrada/blob/master/LICENSE).
