@@ -27,7 +27,7 @@ Que a Graça de DEUS esteja sobre nós!
 - [X] Levítico - __*Completo*__
 - [X] Números - __*Completo*__
 - [X] Deuteronômio - __*Completo*__
-- [ ] Josué
+- [X] Josué - __*Completo*__
 - [ ] Juízes
 - [ ] Rute
 - [ ] I Samuel
