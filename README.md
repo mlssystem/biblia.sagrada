@@ -36,10 +36,10 @@ Que a Graça de DEUS esteja sobre nós!
 - [X] II Reis - __*Completo*__
 - [X] I Crônicas - __*Completo*__
 - [X] II Crônicas - __*Completo*__
-- [ ] Esdras
-- [ ] Neemias
-- [ ] Ester
-- [ ] Jó
+- [X] Esdras - __*Completo*__
+- [X] Neemias - __*Completo*__
+- [X] Ester - __*Completo*__
+- [X] Jó - __*Completo*__
 - [ ] Salmos
 - [x] Provérbios - __*Completo*__
 - [ ] Eclesiastes
