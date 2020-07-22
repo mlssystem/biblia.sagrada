@@ -31,11 +31,11 @@ Que a Graça de DEUS esteja sobre nós!
 - [X] Juízes - __*Completo*__
 - [X] Rute - __*Completo*__
 - [X] I Samuel - __*Completo*__
-- [ ] II Samuel
-- [ ] I Reis	
-- [ ] II Reis
-- [ ] I Crônicas
-- [ ] II Crônicas
+- [X] II Samuel - __*Completo*__
+- [X] I Reis - __*Completo*__	
+- [X] II Reis - __*Completo*__
+- [X] I Crônicas - __*Completo*__
+- [X] II Crônicas - __*Completo*__
 - [ ] Esdras
 - [ ] Neemias
 - [ ] Ester
