@@ -40,7 +40,7 @@ Que a Graça de DEUS esteja sobre nós!
 - [X] Neemias - __*Completo*__
 - [X] Ester - __*Completo*__
 - [X] Jó - __*Completo*__
-- [ ] Salmos
+- [X] Salmos - __*Completo*__
 - [x] Provérbios - __*Completo*__
 - [ ] Eclesiastes
 - [ ] Cântico dos Cânticos
