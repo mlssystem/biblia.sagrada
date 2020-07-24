@@ -42,10 +42,10 @@ Que a Graça de DEUS esteja sobre nós!
 - [X] Jó - __*Completo*__
 - [X] Salmos - __*Completo*__
 - [x] Provérbios - __*Completo*__
-- [ ] Eclesiastes
-- [ ] Cântico dos Cânticos
+- [X] Eclesiastes - __*Completo*__
+- [X] Cântico dos Cânticos - __*Completo*__
 - [X] Isaías - __*Completo*__
-- [ ] Jeremias
+- [X] Jeremias - __*Completo*__
 - [ ] Lamentações
 - [ ] Ezequiel
 - [ ] Daniel
