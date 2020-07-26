@@ -48,16 +48,16 @@ Que a Graça de DEUS esteja sobre nós!
 - [X] Jeremias - __*Completo*__
 - [X] Lamentações - __*Completo*__
 - [X] Ezequiel - __*Completo*__
-- [ ] Daniel
-- [ ] Oséias
-- [ ] Joel
-- [ ] Amós
-- [ ] Obadias
-- [ ] Jonas
-- [ ] Miquéias
-- [ ] Naum
-- [ ] Habacuque
-- [ ] Sofonias
+- [X] Daniel - __*Completo*__
+- [X] Oséias - __*Completo*__
+- [X] Joel - __*Completo*__
+- [X] Amós - __*Completo*__
+- [X] Obadias - __*Completo*__
+- [X] Jonas - __*Completo*__
+- [X] Miquéias - __*Completo*__
+- [X] Naum - __*Completo*__
+- [X] Habacuque - __*Completo*__
+- [X] Sofonias - __*Completo*__
 - [ ] Ageu
 - [ ] Zacarias
 - [ ] Malaquias	
