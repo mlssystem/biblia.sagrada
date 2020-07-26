@@ -46,8 +46,8 @@ Que a Graça de DEUS esteja sobre nós!
 - [X] Cântico dos Cânticos - __*Completo*__
 - [X] Isaías - __*Completo*__
 - [X] Jeremias - __*Completo*__
-- [ ] Lamentações
-- [ ] Ezequiel
+- [X] Lamentações - __*Completo*__
+- [X] Ezequiel - __*Completo*__
 - [ ] Daniel
 - [ ] Oséias
 - [ ] Joel
