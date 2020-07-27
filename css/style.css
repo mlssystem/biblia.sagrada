@@ -93,7 +93,7 @@ p span {
 }
 
 a {
-    color: #ffffff;
+    color: #000;
 }
 
 
@@ -106,13 +106,6 @@ a {
     font-style: italic;
     color: #0427fc;
     text-shadow: #ff0000 0em 0.03em;
-}
-
-
-/*NÃO PARA COLOR WHITE*/
-
-.nao a {
-    color: #000;
 }
 
 a:hover {
