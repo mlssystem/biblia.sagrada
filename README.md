@@ -58,9 +58,9 @@ Que a Graça de DEUS esteja sobre nós!
 - [X] Naum - __*Completo*__
 - [X] Habacuque - __*Completo*__
 - [X] Sofonias - __*Completo*__
-- [ ] Ageu
-- [ ] Zacarias
-- [ ] Malaquias	
+- [x] Ageu - __*Completo*__
+- [x] Zacarias - __*Completo*__
+- [x] Malaquias	 - __*Completo*__
 
 **NOVO TESTAMENTO**
 
