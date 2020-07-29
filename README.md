@@ -4,12 +4,6 @@
 
 O motivo? Personalizar a url :relaxed:
 
-* Mas, antes de remover da branche 'master'. 
-   * criei a branche 'stop'. 
-   
-:+1: QSL!? 
-
-
 ### Para nossa meditação!
 
 "A benignidade do Senhor jamais acaba, as suas misericórdias não têm fim; renovam-se cada manhã. Grande é a tua fidelidade." [Lamentações 3.22-23](https://bibliasagrada.github.io/antigo_testamento/lamentacoes/lamentacoes-3.html)
